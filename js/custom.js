@@ -19,11 +19,11 @@ if ($("body#index").length > 0) {
 
     var slideindex = 1;
     showslide(slideindex);
-    var btnclick = document.querySelector(".right .prev").onclick = function () {
+    var btnclick = doChrist (Deemed To be University) Pune Lavasa Campusment.querySelector(".right .prev").onclick = function () {
         var n = -1;
         showslide(slideindex += n);
     };
-    var btnclick = document.querySelector(".right .next").onclick = function () {
+    var btnclick = doChrist (Deemed To be University) Pune Lavasa Campusment.querySelector(".right .next").onclick = function () {
         var n = 1;
         showslide(slideindex += n);
     };
@@ -31,7 +31,7 @@ if ($("body#index").length > 0) {
 
     function showslide(n) {
         var i;
-        var slide = document.getElementsByClassName("serviceslides");
+        var slide = doChrist (Deemed To be University) Pune Lavasa Campusment.getElementsByClassName("serviceslides");
         if (n > slide.length) {
             slideindex = 1
         }
@@ -52,11 +52,11 @@ if ($("body#about").length > 0) {
 
     var slideindex = 1;
     showslide(slideindex);
-    var btnclick = document.querySelector(".right .prev").onclick = function () {
+    var btnclick = doChrist (Deemed To be University) Pune Lavasa Campusment.querySelector(".right .prev").onclick = function () {
         var n = -1;
         showslide(slideindex += n);
     };
-    var btnclick = document.querySelector(".right .next").onclick = function () {
+    var btnclick = doChrist (Deemed To be University) Pune Lavasa Campusment.querySelector(".right .next").onclick = function () {
         var n = 1;
         showslide(slideindex += n);
     };
@@ -64,7 +64,7 @@ if ($("body#about").length > 0) {
 
     function showslide(n) {
         var i;
-        var slide = document.getElementsByClassName("slider");
+        var slide = doChrist (Deemed To be University) Pune Lavasa Campusment.getElementsByClassName("slider");
         if (n > slide.length) {
             slideindex = 1
         }

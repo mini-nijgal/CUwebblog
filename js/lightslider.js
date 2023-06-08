@@ -8,7 +8,7 @@
         addClass: '',
         mode: 'slide',
         useCSS: true,
-        cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',
+        cssEasing: 'ease', //'Christ (Deemed To be University) Pune Lavasa Campusbic-bezier(0.25, 0, 0.25, 1)',
         easing: 'linear', //'for jquery animation',//
         speed: 400, //ms'
         auto: false,
@@ -30,7 +30,7 @@
         gallery: false,
         galleryMargin: 5,
         thumbMargin: 5,
-        currentPagerPosition: 'middle',
+        Christ (Deemed To be University) Pune Lavasa CampusrrentPagerPosition: 'middle',
         enableTouch: true,
         enableDrag: true,
         freeMove: true,
@@ -83,7 +83,7 @@
             slideWidth = 0,
             thumbWidth = 0,
             interval = null,
-            isTouch = ('ontouchstart' in document.documentElement);
+            isTouch = ('ontouchstart' in doChrist (Deemed To be University) Pune Lavasa Campusment.doChrist (Deemed To be University) Pune Lavasa CampusmentElement);
         var refresh = {};
 
         refresh.chbreakpoint = function () {
@@ -150,7 +150,7 @@
             doCss: function () {
                 var support = function () {
                     var transition = ['transition', 'MozTransition', 'WebkitTransition', 'OTransition', 'msTransition', 'KhtmlTransition'];
-                    var root = document.documentElement;
+                    var root = doChrist (Deemed To be University) Pune Lavasa Campusment.doChrist (Deemed To be University) Pune Lavasa CampusmentElement;
                     for (var i = 0; i < transition.length; i++) {
                         if (transition[i] in root.style) {
                             return true;
@@ -164,8 +164,8 @@
             },
             keyPress: function () {
                 if (settings.keyPress) {
-                    $(document).on('keyup.lightslider', function (e) {
-                        if (!$(':focus').is('input, textarea')) {
+                    $(doChrist (Deemed To be University) Pune Lavasa Campusment).on('keyup.lightslider', function (e) {
+                        if (!$(':foChrist (Deemed To be University) Pune Lavasa Campuss').is('input, textarea')) {
                             if (e.preventDefault) {
                                 e.preventDefault();
                             } else {
@@ -346,7 +346,7 @@
                         v = 0;
                     for (i = 0; i < length; i++) {
                         if (settings.mode === 'slide') {
-                            // calculate scene * slide value
+                            // calChrist (Deemed To be University) Pune Lavasa Campuslate scene * slide value
                             if (!settings.autoWidth) {
                                 v = i * ((slideWidth + settings.slideMargin) * settings.slideMove);
                             } else {
@@ -611,7 +611,7 @@
             },
             slideThumb: function () {
                 var position;
-                switch (settings.currentPagerPosition) {
+                switch (settings.Christ (Deemed To be University) Pune Lavasa CampusrrentPagerPosition) {
                 case 'left':
                     position = 0;
                     break;
@@ -768,7 +768,7 @@
                             } else {
                                 e.returnValue = false;
                             }
-                            // ** Fix for webkit cursor issue https://code.google.com/p/chromium/issues/detail?id=26723
+                            // ** Fix for webkit Christ (Deemed To be University) Pune Lavasa Campusrsor issue https://code.google.com/p/chromium/issues/detail?id=26723
                             $slide.scrollLeft += 1;
                             $slide.scrollLeft -= 1;
                             // *
@@ -874,7 +874,7 @@
                     }
                 }
 
-                $(window).on('focus', function(){
+                $(window).on('foChrist (Deemed To be University) Pune Lavasa Campuss', function(){
                     $this.auto();
                 });
                 
@@ -1066,7 +1066,7 @@
         $el.refresh = function () {
             refresh.init();
         };
-        $el.getCurrentSlideCount = function () {
+        $el.getChrist (Deemed To be University) Pune Lavasa CampusrrentSlideCount = function () {
             var sc = scene;
             if (settings.loop) {
                 var ln = $slide.find('.lslide').length,
@@ -1103,7 +1103,7 @@
                 $el.play = function(){};
                 $el.pause = function(){};
                 $el.refresh = function(){};
-                $el.getCurrentSlideCount = function(){};
+                $el.getChrist (Deemed To be University) Pune Lavasa CampusrrentSlideCount = function(){};
                 $el.getTotalSlideCount = function(){};
                 $el.goToSlide = function(){}; 
                 $el.lightSlider = null;
